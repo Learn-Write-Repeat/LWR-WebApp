@@ -8,7 +8,7 @@
 WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Write-Repeat</a> organization
 
 * **Project type:** DevIncept's core project
-* **Tech stack:** Web Development (framework of your choice) - *(To be deployed on Heroku)*
+* **Tech stack:** MERN Stack
 * **Program Admin:** Handeled by DevIncept's core team 
 
 ### Short info about Webapp
