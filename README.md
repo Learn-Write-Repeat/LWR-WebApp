@@ -20,7 +20,7 @@ WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Wri
 ## 💥 How to Contribute ?
 - If you wish to contribute kindly check the [CONTRIBUTING.md](https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/CONTRIBUTING.md)🤝
 - If you are completely new to Open Source, read the [Instructions](https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/INSTRUCTIONS.md).
-- Please follow the CODE OF CONDUCT.
+- Please follow the [CODE OF CONDUCT](https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/CODE_OF_CONDUCT.md).
 - After every successfull PR merge, make sure to fill this [form](https://forms.gle/3y9GUEJrifzJ8erB6)
 
 > The contributor team might be asked to join as intern for completing the project and deploying.
