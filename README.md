@@ -20,6 +20,12 @@ WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Wri
 > The contributor team might be asked to join as intern for completing the project and deploying.
 
 <br>
+
+<div align="center">
+    <h3><a href="https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/LICENSE">Licensed under MIT LICENSE</a></h3>
+</div>
+
+<br>
 <h5 align="center">
 < Happy Learning />
 <br>
