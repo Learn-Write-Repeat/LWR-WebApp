@@ -1,6 +1,4 @@
-## Related Issue
-
-- Info about the related issue
+### Related Issue
 
 Closes: #[issue number that will be closed through this PR]
 
@@ -8,7 +6,7 @@ Closes: #[issue number that will be closed through this PR]
 
 Give a clear description what modifications you have made
 
-## Type of change
+### Type of change
 
 What sort of change have you made:
 
@@ -23,11 +21,11 @@ Example how to mark a checkbox:-
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-## Mention any unusual behaviour of your code (Write NA if not)
+### Mention any unusual behaviour of your code (Write NA if not)
 
 Any unusual behaviour of your code
 
-## Checklist:
+### Checklist:
 
 <!--
 Example how to mark a checkbox:-
@@ -50,6 +48,10 @@ Example how to mark a checkbox:-
 - [ ] DCP21
 - [ ] Any other
 
-## Additional Info (optional)
+### Fill up the DCP form
+If you are a part of DCP 21, fill up this [form](https://forms.gle/3y9GUEJrifzJ8erB6) after the PR is merged.
+
+
+### Additional Info (optional)
 
 Any additional information you want to give
