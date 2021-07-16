@@ -1,11 +1,25 @@
+require("dotenv").config();
 const express = require("express");
 const app = express();
-const port = 4005;
+const mongoose = require("mongoose");
 
+const port = 8000;
+
+//DB Connection
+mongoose
+  .connect(process.env.DATABASE, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
+  .then(() => console.log("MongoDB connected successfully"))
+  .catch((err) => console.log(err));
+
+//Routes
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome to LWR-WebApp!");
 });
 
 app.listen(port, () => {
-  console.log(`App Listening at  http://localhost:${port}`);
+  console.log(`App Listening at http://localhost:${port}`);
 });
