@@ -15,6 +15,10 @@ const blogSchema = new Schema(
     thumbnail: {
       type: String,
     },
+    slug: {
+      type: String,
+      unique: true,
+    },
   },
   { timestamps: true }
 );

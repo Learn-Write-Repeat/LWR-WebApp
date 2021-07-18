@@ -10,7 +10,11 @@ const blogRoutes = require("./routes/blog.js");
 // ! DB Connection
 const URI = process.env.DB_URI;
 mongoose
-  .connect(URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(URI, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,
+  })
   .then(() => console.log("MongoDB connected successfully"))
   .catch((err) => console.log(err));
 
@@ -18,6 +22,13 @@ mongoose
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors());
+
+// Home route
+app.get("/", (_req, res) => {
+  res
+    .status(200)
+    .json({ message: "Hello There!! You are at LWR-WebApp Backend" });
+});
 
 //My Routes
 app.use("/api", blogRoutes);

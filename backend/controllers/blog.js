@@ -1,3 +1,4 @@
+const { default: slugify } = require("slugify");
 const Blog = require("../models/blog");
 
 exports.getAllBlogs = (req, res) => {
@@ -12,11 +13,17 @@ exports.getAllBlogs = (req, res) => {
 };
 
 exports.createBlog = (req, res) => {
+  const slug = slugify(req.body.title, {
+    replacement: "-",
+    lower: true,
+    trim: true,
+  });
   const blog = new Blog({
     title: req.body.title,
     description: req.body.description,
     body: req.body.body,
     thumbnail: req.body.thumbnail,
+    slug: slug,
   });
   blog
     .save()
@@ -24,13 +31,25 @@ exports.createBlog = (req, res) => {
       res.send(result);
     })
     .catch(function (err) {
-      console.log(err);
+      //   console.log(err);
+      res.json({ error: "Blog Title must be unique" });
     });
 };
 
 exports.getBlogById = (req, res) => {
   const id = req.params.id;
   Blog.findById(id)
+    .then(function (result) {
+      res.json(result);
+    })
+    .catch(function (err) {
+      console.log(err);
+    });
+};
+
+exports.getBlogBySlug = (req, res) => {
+  const slug = req.query.slug;
+  Blog.findOne({ slug: slug })
     .then(function (result) {
       res.json(result);
     })
