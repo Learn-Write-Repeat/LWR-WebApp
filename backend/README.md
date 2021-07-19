@@ -11,4 +11,4 @@
 - `npm install`
 - `npm start`
 
-#### Your backend server will start running at [http://localhost:3500](http://localhost:8000)
+#### Your backend server will start running at [http://localhost:8000](http://localhost:8000)
