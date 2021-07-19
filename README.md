@@ -88,6 +88,15 @@ Following are the steps to run the backend of the LWR-WebApp on your local. All 
 
 The backend is live at [https://lwr-webapp.herokuapp.com](https://lwr-webapp.herokuapp.com/)
 
+
+## Contributors 🌟
+
+Thanks goes to these wonderful people ✨✨:
+
+<a href="https://github.com/Learn-Write-Repeat/LWR-WebApp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Learn-Write-Repeat/LWR-WebApp" />
+</a>
+
 <br />
 <div align="center">
     <h3><a href="https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/LICENSE">Licensed under MIT LICENSE</a></h3>
