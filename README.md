@@ -43,7 +43,7 @@ WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Wri
 
 ## Frontend ⚛️
 
-Following are the steps to run the frontend of the community-website on your local. All the frontend code will go in the `frontend` directory. 
+Following are the steps to run the frontend of the LWR-WebApp on your local. All the frontend code will go in the `frontend` directory. 
 
 1. Navigate to `frontend` folder.
   ```sh
@@ -62,12 +62,12 @@ Following are the steps to run the frontend of the community-website on your loc
   http://localhost:3000
   ```
 
-The website is live at [https://lwr-app.netlify.app/](https://lwr-app.netlify.app/)
+The website is live at [https://lwr-app.netlify.app](https://lwr-app.netlify.app/)
 
 
 ## Backend 💻
 
-Following are the steps to run the backend of the community-website on your local. All the backend code will go in the `backend` folder.
+Following are the steps to run the backend of the LWR-WebApp on your local. All the backend code will go in the `backend` folder.
 
 1. Navigate to `backend` folder.
   ```sh
@@ -86,7 +86,7 @@ Following are the steps to run the backend of the community-website on your loca
   http://localhost:8000
   ```
 
-The backend is live at [https://lwr-webapp.herokuapp.com/](https://lwr-webapp.herokuapp.com/)
+The backend is live at [https://lwr-webapp.herokuapp.com](https://lwr-webapp.herokuapp.com/)
 
 <br />
 <div align="center">
