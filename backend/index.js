@@ -33,6 +33,10 @@ app.get("/", (_req, res) => {
 //My Routes
 app.use("/api", blogRoutes);
 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("index.js"));
+}
+
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log(`App Listening at http://localhost:${port}`);

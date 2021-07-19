@@ -4,7 +4,9 @@
   "description": "web app for learn-write-repeat organization",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "concurrently \"npm run server \" ",
+    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "repository": {
     "type": "git",
