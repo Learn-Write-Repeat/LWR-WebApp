@@ -9,6 +9,7 @@ WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Wri
 
 * **Project type:** DevIncept's core project
 * **Program Admin:** Handeled by DevIncept's core team 
+* **Program Mentor:** [Dhwaj Gupta](https://github.com/dhwaj1902) 
 
 ### Short info about Webapp
 
@@ -26,7 +27,7 @@ WebApp for DevIncept's <a href="https://github.com/Learn-Write-Repeat">Learn-Wri
 - Please follow the [CODE OF CONDUCT](https://github.com/Learn-Write-Repeat/LWR-WebApp/blob/main/CODE_OF_CONDUCT.md).
 - After every successfull PR merge, make sure to fill this [form](https://forms.gle/3y9GUEJrifzJ8erB6)
 
-> The contributor team might be asked to join as intern for completing the project and deploying.
+
 
 ##  Getting Started 👨‍💻
 ### Setup the repository to your local environment.
@@ -96,6 +97,8 @@ Thanks goes to these wonderful people ✨✨:
 <a href="https://github.com/Learn-Write-Repeat/LWR-WebApp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Learn-Write-Repeat/LWR-WebApp" />
 </a>
+
+> The contributor team might be asked to join as intern for completing the project and deploying.
 
 <br />
 <div align="center">
