@@ -1,0 +1,54 @@
+.card {
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem !important;
+}
+.content-title {
+  padding-bottom: 4rem;
+}
+.blogs-base {
+  margin: 4rem auto;
+}
+.spinner-border {
+  margin: 15% auto;
+}
+.fetch-error {
+  color: red;
+  font-size: 2rem;
+}
+.row {
+  padding: 3rem auto;
+}
+.blog-title {
+  font-size: 2rem !important;
+  text-align: left;
+}
+.thumbnail {
+  padding-top: 2rem;
+}
+.post-date {
+  text-align: left;
+}
+.blog-desc {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.card-body {
+  padding: 1rem 2rem;
+}
+.blog-btn {
+  margin-bottom: 5px !important;
+  margin-top: 1rem;
+  display: block;
+  margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  .card {
+    max-width: 90%;
+  }
+}

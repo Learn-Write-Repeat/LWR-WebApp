@@ -1,0 +1,53 @@
+.create {
+  padding-top: 8rem;
+}
+.fetch-error {
+  color: red;
+  font-size: 2rem;
+}
+.title {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.form-label {
+  display: inline;
+  text-align: left;
+}
+.blog-title-detail {
+  height: 3rem;
+  font-size: 1rem;
+}
+.blog-form {
+  width: 70%;
+  margin: 0.5rem auto;
+}
+.file-input {
+  height: 2.3rem;
+}
+.desc-input {
+  height: 5rem;
+}
+.blog-input {
+  height: 15rem;
+}
+.btn-primary {
+  width: 10rem;
+  height: 3rem;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 480px) {
+  .create {
+    padding-top: 2rem;
+  }
+  .form-control,
+  .btn-primary {
+    width: 90%;
+  }
+  .desc-input {
+    height: 10rem;
+  }
+  .blog-input {
+    height: 25rem;
+  }
+}

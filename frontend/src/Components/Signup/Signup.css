@@ -1,0 +1,25 @@
+.signup {
+  padding-top: 12rem;
+}
+.title {
+  padding-bottom: 2rem;
+}
+.signup-form {
+  height: 3rem;
+  width: 24rem;
+  margin-bottom: 10px;
+}
+.signup-form {
+  width: 24rem !important;
+  height: 3rem;
+}
+
+@media (max-width: 480px) {
+  .signup {
+    padding-top: 10rem;
+  }
+  .form-control,
+  .btn-primary {
+    width: 90% !important;
+  }
+}
