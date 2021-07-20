@@ -1,0 +1,19 @@
+.blog-title-view {
+  margin: 5rem;
+}
+.edit-btn,
+.delete-btn {
+  width: 6rem;
+  margin: auto 0.5rem;
+}
+.blog-body {
+  font-size: 1.3rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  width: 70%;
+  text-align: left;
+}
+.fetch-error {
+  color: red;
+  font-size: 2rem;
+}

@@ -1,0 +1,25 @@
+.login {
+  padding-top: 12rem;
+}
+.title {
+  padding-bottom: 2rem;
+}
+.login-form {
+  height: 3rem;
+  width: 24rem !important;
+  margin-bottom: 10px;
+}
+.blog-form {
+  width: 24rem;
+  height: 3rem;
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding-top: 10rem;
+  }
+  .form-control,
+  .btn-primary {
+    width: 90% !important;
+  }
+}

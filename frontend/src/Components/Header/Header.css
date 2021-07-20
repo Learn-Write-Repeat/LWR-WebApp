@@ -1,0 +1,18 @@
+.navbar-brand {
+  color: #ffffff !important;
+  padding-left: 1rem;
+}
+.nav-link {
+  color: #ffffff !important;
+  margin-left: 1rem;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 1rem;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  color: #ffffff;
+}
