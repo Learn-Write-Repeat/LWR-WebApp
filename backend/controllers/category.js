@@ -13,15 +13,15 @@ exports.getAllCategories = (req, res) => {
 };
 
 exports.createCategory = (req, res) => {
-  console.log(req.body.category);
+  console.log(req.body.name);
   console.log(req.body.position);
-  const slug = slugify(req.body.category, {
+  const slug = slugify(req.body.name, {
     replacement: "-",
     lower: true,
     trim: true,
   });
   const category = new Category({
-    name: req.body.category,
+    name: req.body.name,
     position: req.body.position,
     slug: slug,
   });
