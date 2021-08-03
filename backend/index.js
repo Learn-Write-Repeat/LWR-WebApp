@@ -3,9 +3,11 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const app = express();
+const slugify = require("slugify");
 
 //import routes
 const blogRoutes = require("./routes/blog.js");
+const categoryRoutes = require("./routes/category.js");
 
 // ! DB Connection
 const URI = process.env.DB_URI;
@@ -32,6 +34,7 @@ app.get("/", (_req, res) => {
 
 //My Routes
 app.use("/api", blogRoutes);
+app.use("/api", categoryRoutes);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("index.js"));

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "concurrently \"npm run server \" ",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
   },
   "repository": {
     "type": "git",
