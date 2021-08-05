@@ -3,7 +3,7 @@ const Category = require("../models/category");
 
 exports.getAllCategories = (req, res) => {
   Category.find()
-    .sort({ createdAt: -1 })
+    .sort({ position: 1 })
     .then(function (result) {
       res.json(result);
     })
@@ -61,6 +61,15 @@ exports.getCategoryBySlug = (req, res) => {
 
 exports.updateCategory = (req, res) => {
   const id = req.params.id;
+  var slug = "";
+  if (req.body.name) {
+    slug = slugify(req.body.name, {
+      replacement: "-",
+      lower: true,
+      trim: true,
+    });
+    req.body["slug"] = slug;
+  }
   Category.findByIdAndUpdate(id, req.body, { useFindAndModify: false })
     .then(function (result) {
       res.json(result);
