@@ -1,7 +1,7 @@
 import "./Create.css";
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Create = () => {
   const [title, setTitle] = useState("");
   const [thumbnail, setThumbnail] = useState("");
@@ -22,24 +22,20 @@ const Create = () => {
       history.push("/api/blogs");
     });
   }
-  
-
   return (
     <div className="create">
       <center>
         <h1 className="title">Go on write your Blog!</h1>
-        <form action="/action_page.php">
-    <label className="Category" for="Category">Select a Category:</label>
-    <select name="category" id="category">
-    <option className="cate"
-    value="music">Music</option>
-    <option className="cate"
-    value="music">Travel</option>
-    <option className="cate"
-    value="music">Food</option>
-    </select>
-        </form>
-      <br></br>
+        <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        Category
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+        <li><a class="dropdown-item" href="#">Food</a></li>
+        <li><a class="dropdown-item" href="#">Music</a></li>
+        <li><a class="dropdown-item" href="#">Travel</a></li>
+        </ul>
+      </div>
         <form>
           <input
             type="text"
