@@ -47,3 +47,13 @@
     height: 25rem;
   }
 }
+.Category{
+  font-size: 20px;
+  font-weight: 200;
+  font-family:initial;
+}
+.cate{
+  color:blue;
+  font-size: 18px;
+  font-family:cursive;
+}

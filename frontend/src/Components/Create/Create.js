@@ -22,12 +22,24 @@ const Create = () => {
       history.push("/api/blogs");
     });
   }
+  
 
   return (
     <div className="create">
       <center>
-        <h1 className="title">Go on write your Blog !</h1>
-
+        <h1 className="title">Go on write your Blog!</h1>
+        <form action="/action_page.php">
+    <label className="Category" for="Category">Select a Category:</label>
+    <select name="category" id="category">
+    <option className="cate"
+    value="music">Music</option>
+    <option className="cate"
+    value="music">Travel</option>
+    <option className="cate"
+    value="music">Food</option>
+    </select>
+        </form>
+      <br></br>
         <form>
           <input
             type="text"
